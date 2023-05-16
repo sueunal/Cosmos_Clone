@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2CFBA5402A124603006A4CED /* Cosmos_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA53F2A124603006A4CED /* Cosmos_CloneApp.swift */; };
-		2CFBA5422A124603006A4CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA5412A124603006A4CED /* ContentView.swift */; };
 		2CFBA5442A124603006A4CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBA5432A124603006A4CED /* Assets.xcassets */; };
 		2CFBA5472A124603006A4CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBA5462A124603006A4CED /* Preview Assets.xcassets */; };
 		2CFBA5512A124604006A4CED /* Cosmos_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBA5502A124604006A4CED /* Cosmos_CloneTests.swift */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		2CFBA53C2A124603006A4CED /* Cosmos_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosmos_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFBA53F2A124603006A4CED /* Cosmos_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmos_CloneApp.swift; sourceTree = "<group>"; };
-		2CFBA5412A124603006A4CED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CFBA5432A124603006A4CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFBA5462A124603006A4CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CFBA54C2A124604006A4CED /* Cosmos_CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cosmos_CloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				2CFBA53F2A124603006A4CED /* Cosmos_CloneApp.swift */,
-				2CFBA5412A124603006A4CED /* ContentView.swift */,
 				2CFBA5692A124741006A4CED /* CosmosTabView.swift */,
 				2CFBA56B2A12476B006A4CED /* lectureView.swift */,
 				2CFBA5432A124603006A4CED /* Assets.xcassets */,
@@ -264,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFBA56A2A124741006A4CED /* CosmosTabView.swift in Sources */,
-				2CFBA5422A124603006A4CED /* ContentView.swift in Sources */,
 				2CFBA5402A124603006A4CED /* Cosmos_CloneApp.swift in Sources */,
 				2CFBA56C2A12476B006A4CED /* lectureView.swift in Sources */,
 			);

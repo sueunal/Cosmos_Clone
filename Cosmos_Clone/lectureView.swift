@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct lectureView: View {
+    @State private var lastLecture = Date()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            Section {
+                Text("보안 감사[00]")
+                Text("보안 감사[00]")
+                Text("보안 감사[00]")
+                Text("보안 감사[00]")
+                Text("보안 감사[00]")
+            } header: {
+                
+                Text("현재진행강좌")
+                    .foregroundColor(.black)
+                    .bold()
+                
+            }
+            Section{
+                DatePicker("과거 강좌를 조회합니다.", selection: $lastLecture,displayedComponents: .hourAndMinute)
+            }
+            header: {
+                Text("과거 강좌")
+            }
+            
+        }.listStyle(.grouped)
     }
 }
 
